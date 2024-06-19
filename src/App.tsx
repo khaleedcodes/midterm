@@ -1,5 +1,11 @@
+import AddProduct from "./components/AddProduct";
+
 function App() {
-  return <div>Mugspot</div>;
+  return (
+    <div>
+      <AddProduct />
+    </div>
+  );
 }
 
 export default App;
